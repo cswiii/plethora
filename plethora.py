@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# plethora.py - Python Lightweight Executable Tester
+# plethora.py - Python Lightweight Executable Test Harness
 
 import sys
 import csv
@@ -8,7 +8,7 @@ from subprocess import Popen, PIPE, STDOUT
 
 if len(sys.argv) == 1:
   print "This program requires a recipe file."
-  print "Ex: plth.py </path/to/recipe_file.txt>"
+  print "Ex: plethora.py </path/to/recipe_file.txt>"
   sys.exit()
 
 try:
