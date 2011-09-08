@@ -1,0 +1,4 @@
+"ls",
+"/tmp/blah","No such file or directory"
+"/etc/passwd","/etc/passwd"
+"-l /etc/issue","-rw-r--r--"
